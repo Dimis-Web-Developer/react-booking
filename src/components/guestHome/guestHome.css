@@ -1,0 +1,39 @@
+.gHome {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.gHomeItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.gHomeImg {
+  width: 100%;
+}
+
+.gHomeName {
+  font-weight: bold;
+}
+.gHomeCity {
+  font-weight: 300;
+}
+
+.gHomePrice {
+  font-weight: 500;
+}
+.gHomeRating > button {
+  background-color: #212194;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.gHomeRating > span {
+  font-size: 14px;
+}
